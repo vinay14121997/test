@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;FirstSpringBootProject/src/main/java/com/example/DemoApplication.java&apos; to &apos;FirstSpringBootProjectApplication.java&apos;" description="Rename resource &apos;DemoApplication.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/com/example/DemoApplication.java" name="FirstSpringBootProjectApplication.java" stamp="1727261694588" updateReferences="true"/>
+</session>

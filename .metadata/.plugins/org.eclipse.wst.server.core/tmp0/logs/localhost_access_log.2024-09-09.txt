@@ -1,0 +1,8 @@
+127.0.0.1 - - [09/Sep/2024:16:42:30 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [09/Sep/2024:16:42:32 +0530] "GET /EmployeeManagementByServelts/ HTTP/1.1" 200 57
+0:0:0:0:0:0:0:1 - - [09/Sep/2024:16:42:32 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [09/Sep/2024:16:42:55 +0530] "GET /EmployeeManagementByServelts/EmployeeRegistration.html HTTP/1.1" 200 254
+0:0:0:0:0:0:0:1 - - [09/Sep/2024:16:43:03 +0530] "GET /EmployeeManagementByServelts/employeeregistration? HTTP/1.1" 405 751
+0:0:0:0:0:0:0:1 - - [09/Sep/2024:16:44:08 +0530] "GET /EmployeeManagementByServelts/ HTTP/1.1" 200 57
+0:0:0:0:0:0:0:1 - - [09/Sep/2024:16:44:15 +0530] "GET /EmployeeManagementByServelts/EmployeeRegistration.html HTTP/1.1" 200 268
+0:0:0:0:0:0:0:1 - - [09/Sep/2024:16:44:17 +0530] "POST /EmployeeManagementByServelts/employeeregistration HTTP/1.1" 200 -

@@ -1,0 +1,41 @@
+package com.jsp.DAO;
+
+import javax.net.ssl.ManagerFactoryParameters;
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
+import javax.persistence.Persistence;
+
+import com.jsp.entity.UserInformation;
+
+public class UserDAOimpl  implements UserDAO{
+
+	
+	public void insertUserInformationObject() {
+	
+		EntityManagerFactory managerfactory=
+				Persistence.createEntityManagerFactory("FirstMavenProject");
+		EntityManager manager=managerfactory .createEntityManager();
+		EntityTransaction transaction=manager.getTransaction();
+		// toBegin
+		transaction.begin();
+		UserInformation userinformation=new UserInformation();
+		userinformation.setFirstname("karthik");
+		userinformation.setLastname("chittimalla");
+		userinformation.setGender("male");
+		userinformation.setEmailid("karthik07@gmail.com");
+		userinformation.setMobilenumber(98425361);
+		userinformation.setpassword("143");
+		//operation
+		//To perform insertion
+		manager.persist(userinformation);
+		System.out.println("Data Inserted......");
+		// to Commit
+		transaction.commit();
+		// to Close the platform
+		manager.close();
+		//to Close the Connection
+		managerfactory.close();
+	}
+
+}

@@ -1,0 +1,14 @@
+127.0.0.1 - - [10/Sep/2024:16:34:12 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [10/Sep/2024:16:34:15 +0530] "GET /EmployeeManagementSystemByUsingSpringWebMVC/ HTTP/1.1" 200 57
+0:0:0:0:0:0:0:1 - - [10/Sep/2024:16:34:15 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [10/Sep/2024:16:37:10 +0530] "GET /EmployeeManagementSystemByUsingSpringWebMVC/registration HTTP/1.1" 500 8667
+127.0.0.1 - - [10/Sep/2024:16:50:15 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [10/Sep/2024:16:50:16 +0530] "GET /EmployeeManagementSystemByUsingSpringWebMVC/ HTTP/1.1" 200 57
+0:0:0:0:0:0:0:1 - - [10/Sep/2024:16:50:24 +0530] "GET /EmployeeManagementSystemByUsingSpringWebMVC/registration HTTP/1.1" 500 11293
+127.0.0.1 - - [10/Sep/2024:16:54:40 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [10/Sep/2024:16:54:41 +0530] "GET /EmployeeManagementSystemByUsingSpringWebMVC/ HTTP/1.1" 200 57
+0:0:0:0:0:0:0:1 - - [10/Sep/2024:16:54:51 +0530] "GET /EmployeeManagementSystemByUsingSpringWebMVC/registration HTTP/1.1" 500 2558
+0:0:0:0:0:0:0:1 - - [10/Sep/2024:16:59:56 +0530] "GET /EmployeeManagementSystemByUsingSpringWebMVC/ HTTP/1.1" 200 57
+0:0:0:0:0:0:0:1 - - [10/Sep/2024:17:00:03 +0530] "GET /EmployeeManagementSystemByUsingSpringWebMVC/updation HTTP/1.1" 500 2542
+0:0:0:0:0:0:0:1 - - [10/Sep/2024:17:01:09 +0530] "GET /EmployeeManagementSystemByUsingSpringWebMVC/ HTTP/1.1" 200 57
+0:0:0:0:0:0:0:1 - - [10/Sep/2024:17:01:16 +0530] "GET /EmployeeManagementSystemByUsingSpringWebMVC/deletion HTTP/1.1" 500 2542
