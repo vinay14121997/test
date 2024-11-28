@@ -1,0 +1,15 @@
+package org.jsp.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/customerregistration")
+public class CustomerController {
+	
+	public String UserRegistration() {
+
+        return "CoustomerRegistration";
+	}
+
+}

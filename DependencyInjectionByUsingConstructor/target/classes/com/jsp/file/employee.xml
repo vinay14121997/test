@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context.xsd">
+<context:property-placeholder location="com/jsp/file/EmployeeProperties"/>
+    <bean class="com.jsp.Model.Employee" id="employee">
+    <constructor-arg  value="101"></constructor-arg>
+    <constructor-arg  value="Vinay"></constructor-arg>
+    <constructor-arg  value="45000"></constructor-arg>
+    <constructor-arg value="10"></constructor-arg>
+    <constructor-arg ref="address"></constructor-arg>
+    </bean>
+    
+    <bean class="com.jsp.Model.Address" id="address">
+     <constructor-arg index="0" value="506002"></constructor-arg>
+     <constructor-arg  index="1" value="Telanagana"></constructor-arg>
+     <constructor-arg index="2" value="Warangal"></constructor-arg>
+    </bean>
+    
+    
+    <bean class="com.jsp.Model.Employee" id="employee1">
+    <constructor-arg name="id" value="${id}"></constructor-arg>
+    <constructor-arg name="name" value="${name}"></constructor-arg>
+    <constructor-arg name="salary" value="${salary}"></constructor-arg>
+    <constructor-arg name="deptno" value="${deptno}"></constructor-arg>
+    <constructor-arg ref="address1"></constructor-arg>
+    </bean>
+    
+    
+      <bean class="com.jsp.Model.Address" id="address1">
+    <constructor-arg name="pin" value="${pin}"></constructor-arg>
+    <constructor-arg name="city" value="${city}"></constructor-arg>
+    <constructor-arg name="state" value="${state}"></constructor-arg>
+    </bean>
+ 
+</beans>

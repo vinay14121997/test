@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\hybernate_java\EmployeeManagementSystemByUsingSpringWebMVC"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.jsp"/>
+			<item value="com.jsp.StudentManagementSystemByUsingSpringWebMVC"/>
+			<item value="com.jsp.EmployeeDetails"/>
+			<item value="com.jsp.FirstMavenProject"/>
+		</list>
+		<list key="groupId">
+			<item value="com.jsp"/>
+		</list>
+		<list key="artifactId">
+			<item value="HotelManagementSystemByUsingSpringWebMVCWithClassConfig"/>
+			<item value="StudentManagementSystemByUsingSpringWebMVC"/>
+			<item value="EmployeeManagementSystemByUsingSpringWebMVC"/>
+			<item value="EmployeeManagementByServelts"/>
+			<item value="EmployeeManagementByUsingServlets"/>
+			<item value="EmployeeManagementByUsingServelts"/>
+			<item value="EmployeeManagementSysytemByUsingServlets"/>
+			<item value="Teca61_Shopping_By_Using_Spring_Data_Jpa"/>
+			<item value="EmployeeManagementSystemByUsingSpringJdbc"/>
+			<item value="HybernateWithSpringCore"/>
+			<item value="DependencyInjectionByUsingConstructor"/>
+			<item value="DependencyInjectionByUsingSetters"/>
+			<item value="ScopeOfBeans"/>
+			<item value="CreatingBeanOfClasses"/>
+			<item value="BankHibernateProject"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\Kapil Reddy\Downloads\FirstSpringvinayProject\FirstSpringvinayProject"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

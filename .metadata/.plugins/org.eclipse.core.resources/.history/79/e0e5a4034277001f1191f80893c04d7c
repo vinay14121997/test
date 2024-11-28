@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="customerregistration">
+<h1>.....customerregistration.....</h1>
+<input placeholder="Enter your name">
+<input placeholder="Enter your emailid">
+<input placeholder="Enter your Mobilenumber">
+<input placeholder="Enter your password">
+<input placeholder="Enter your age">
+<input placeholder="Enter your DOB">
+<input placeholder="Enter your Address">
+<input placeholder="Enter your Gender">
+<input placeholder="Enter your UIDno">
+
+
+</form>
+
+</body>
+</html>
